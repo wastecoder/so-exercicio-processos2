@@ -39,11 +39,7 @@ public class KillController {
             //Printa apenas o IPv4 no buffer
             String linha;
             while ((linha = buffer.readLine()) != null) {
-                if (os.equals("Windows")) {
-                    System.out.println(linha);
-                } else {
-                    System.out.println("a");
-                }
+                System.out.println(linha);
             }
 
             buffer.close();
